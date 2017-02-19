@@ -1,0 +1,32 @@
+<html>
+<head>
+	<link rel="stylesheet" href="main.css">
+</head>
+	<body>
+		<div class= "container">
+			<div class="options">
+				<h2>Options</h2>
+				<h3>Game Field Size</h3>
+				<button class="game-size-button" id="5">5 X 5</button>
+				<button class="game-size-button" id="10">10 X 10</button>
+				<button class="game-size-button" id="15">15 X 15</button>
+				<button class="game-size-button" id="20">20 X 20</button>
+				<h3>Custom Game Field Size</h3>
+				<form>
+					<label for="height">Height</label>
+					<input type="text" id="height" name="height" placeholder="enter height here">
+
+					<label for="width">Width</label>
+					<input type="text" id="width" name="width" placeholder="enter width here">
+
+					<button class="game-size-button" type="button" id="gamefieldsize">Create</button>
+				</form>
+			</div>
+
+			<div id="gamefield">
+
+			</div>
+			<script src="main.js"></script>
+		</div>
+	</body>
+</html>

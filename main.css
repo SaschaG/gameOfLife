@@ -1,0 +1,8 @@
+.cell{
+	width: 30px;
+	height: 30px;
+	border: solid 1px black;
+	border-collapse: collapse;
+	float: left;
+	margin:0;
+}
