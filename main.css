@@ -1,8 +1,18 @@
+body{
+	background-color: #111;
+	color: #fff;
+}
 .cell{
-	width: 30px;
-	height: 30px;
-	border: solid 1px black;
-	border-collapse: collapse;
+	border: 2px solid white;
+	height: 40px;
+	width: 40px;
 	float: left;
-	margin:0;
+}
+
+.first-cell{
+	clear: both;
+}
+
+.alive{
+	background-color: green;
 }
